@@ -90,13 +90,13 @@
               "sourceMap": true
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ESATWEBSITE:build:development"
+              "buildTarget": "ESATWEBSITE:build:production"
             },
             "development": {
               "buildTarget": "ESATWEBSITE:build:development"
