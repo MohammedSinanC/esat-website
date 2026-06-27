@@ -1,0 +1,28 @@
+<!-- about.component.html -->
+
+<div class="about-layout">
+  <div class="container">
+      <!-- submenu -->
+   <nav class="about-submenu">
+          <a routerLinkActive="active" [routerLink]="['founder-msg']">Founder's Message</a> 
+          <a routerLinkActive="active" [routerLink]="['team']">Team</a> 
+          <a routerLinkActive="active" [routerLink]="['environment']">Environment</a> 
+          <a routerLinkActive="active" [routerLink]="['Philosophy']">Philosophy </a> 
+          <a routerLinkActive="active" [routerLink]="['Social']">Social Responsibility</a>
+          <a routerLinkActive="active" [routerLink]="['Story']">Stories</a> 
+          <a routerLinkActive="active" [routerLink]="['experience']">Industry Experience</a>   
+          <a routerLinkActive="active" [routerLink]="['awards']">Awards</a> 
+          <a routerLinkActive="active" [routerLink]="['news']">News</a> 
+         <a routerLinkActive="active" [routerLink]="['qualitypolicy']">Quality Policy</a> 
+          <a routerLinkActive="active" [routerLink]="['privacypolicy']">Privacy </a> 
+          <a routerLinkActive="active" [routerLink]="['Terms']">Terms</a> 
+      </nav>
+  </div>
+
+
+  <!-- child pages render here -->
+  <div class="about-content">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
